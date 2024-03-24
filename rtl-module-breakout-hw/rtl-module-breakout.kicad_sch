@@ -1184,6 +1184,15 @@
   (no_connect (at 52.07 182.88) (uuid acf46533-425f-4e62-b5b4-0903b880040c))
   (no_connect (at 43.18 50.8) (uuid cb1c0fff-2fc7-4347-ab86-7e736cabf910))
 
+  (bus_entry (at 127 -16.51) (size 2.54 2.54)
+    (stroke (width 0) (type default))
+    (uuid 918d17d7-d3ef-4dea-8359-18bd104c5ad6)
+  )
+  (bus_entry (at 44.45 -1.27) (size 2.54 2.54)
+    (stroke (width 0) (type default))
+    (uuid dc09488b-201a-41ea-bcf0-874f72481145)
+  )
+
   (wire (pts (xy 34.29 33.02) (xy 43.18 33.02))
     (stroke (width 0) (type default))
     (uuid 01c15991-7143-49c3-b73e-4ae7b5bd3c2b)

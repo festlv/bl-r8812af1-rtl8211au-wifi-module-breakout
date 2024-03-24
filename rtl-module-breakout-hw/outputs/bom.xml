@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/reinis/Sync/hadv/rtl-module-breakout/rtl-module-breakout-hw/rtl-module-breakout.kicad_sch</source>
+    <date>svētdiena, 2024. gada 24. marts, 22:46:20</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rtl-module-breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC#">C380338</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC#" value="C380338"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>823a75f1-ce91-49c0-b194-0324536d03db</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC#">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC#" value="C15850"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eae83a5a-f3ee-466f-b30f-adfa518f9795</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f59ade5-2e88-487a-83ab-235d0688acf7</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC#">C380338</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC#" value="C380338"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7800203b-2a83-44bb-b985-6d4b229ecd8e</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC#">C380338</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC#" value="C380338"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1523b620-286b-4977-bbd3-6cd6ed280506</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08d5e061-0b72-4ed1-be23-9adbf36edb66</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC#">C434423</field>
+        <field name="MPN">SZYY0603YG</field>
+        <field name="Manufacturer">Yongyu Photoelectric</field>
+      </fields>
+      <libsource lib="hadv-ui" part="LED_GREEN" description="LED green"/>
+      <property name="MPN" value="SZYY0603YG"/>
+      <property name="Manufacturer" value="Yongyu Photoelectric"/>
+      <property name="LCSC#" value="C434423"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="LED green"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode green"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2812e7e-0f10-4438-ad04-b83768b5bf4b</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC#">C434419</field>
+        <field name="MPN">SZYY0603R</field>
+        <field name="Manufacturer">Yongyu Photoelectric</field>
+      </fields>
+      <libsource lib="hadv-ui" part="LED_RED" description="LED red"/>
+      <property name="MPN" value="SZYY0603R"/>
+      <property name="Manufacturer" value="Yongyu Photoelectric"/>
+      <property name="LCSC#" value="C434419"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="LED red"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode red"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea945859-e0db-4aaf-a645-f83d1bc88b8d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>DSS34</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2004141809_BORN-DSS34_C511866.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C511866</field>
+        <field name="MPN">DSS34</field>
+        <field name="Manufacturer">BORN</field>
+      </fields>
+      <libsource lib="hadv-diodes" part="DSS34" description="40V 3A RMS 550mV schottky diode"/>
+      <property name="MPN" value="DSS34"/>
+      <property name="Manufacturer" value="BORN"/>
+      <property name="LCSC#" value="C511866"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="40V 3A RMS 550mV schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da1239f9-a6f7-4d24-adfc-6f85699630b3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>FFC_12p_H</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC#">C262290</field>
+        <field name="MPN">AFC24-S12FIC-00</field>
+        <field name="Manufacturer">JUSHUO</field>
+      </fields>
+      <libsource lib="hadv-connectors" part="FFC_12p_H" description="FFC / FPC 12 pin horizontal"/>
+      <property name="MPN" value="AFC24-S12FIC-00"/>
+      <property name="Manufacturer" value="JUSHUO"/>
+      <property name="LCSC#" value="C262290"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="FFC / FPC 12 pin horizontal"/>
+      <property name="ki_keywords" value="connector ffc fpc"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>727a439b-54b3-44ca-bf66-77d3800b6696</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TF-01A</value>
+      <footprint>hadv-connectors:TF-01A</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811082127_Korean-Hroparts-Elec-TF-01A_C91145.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C91145</field>
+        <field name="MPN">TF-01A</field>
+        <field name="Manufacturer">Korean Hroparts</field>
+      </fields>
+      <libsource lib="hadv-connectors" part="TF-01A" description="Micro SD Card Socket with one card detection pin"/>
+      <property name="MPN" value="TF-01A"/>
+      <property name="Manufacturer" value="Korean Hroparts"/>
+      <property name="LCSC#" value="C91145"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Micro SD Card Socket with one card detection pin"/>
+      <property name="ki_keywords" value="connector SD microsd"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>180619a6-e07e-4874-aad1-91bd549ef987</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JST-GH-4H</value>
+      <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="AltMPN">X1251WRS-04HF-LPSW</field>
+        <field name="AltManufacturer">XKB</field>
+        <field name="LCSC#">C388709</field>
+        <field name="MPN">SM04B-GHS-TB</field>
+        <field name="Manufacturer">JST</field>
+      </fields>
+      <libsource lib="hadv-connectors" part="JST-GH-4H" description="JST GH series 4 pin horizontal connector"/>
+      <property name="MPN" value="SM04B-GHS-TB"/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="AltMPN" value="X1251WRS-04HF-LPSW"/>
+      <property name="AltManufacturer" value="XKB"/>
+      <property name="LCSC#" value="C388709"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="JST GH series 4 pin horizontal connector"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e68a5a8-453e-4807-af39-b4fbd571f7f9</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>LQH5BPN3R3N38L</value>
+      <footprint>Inductor_SMD:L_Sunlord_SWPA5020S</footprint>
+      <fields>
+        <field name="LCSC#">C703751</field>
+        <field name="MPN">LQH5BPN3R3N38L</field>
+        <field name="Manufacturer">Murata</field>
+      </fields>
+      <libsource lib="hadv-inductors" part="LQH5BPN3R3N38L" description="4A 3.3uH ±30% 4A 21mΩ"/>
+      <property name="MPN" value="LQH5BPN3R3N38L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="LCSC#" value="C703751"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="4A 3.3uH ±30% 4A 21mΩ"/>
+      <property name="ki_keywords" value="smd inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed0b6891-853b-4d93-b72e-67769948bc16</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5570a61-d597-4048-8398-b988d2eea6b5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC#">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC#" value="C22962"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e30f8e82-44b9-44a5-99ff-6d95fc326f9c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>31K6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC#">C25967</field>
+        <field name="MPN">0603WAF3162T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC#" value="C25967"/>
+      <property name="MPN" value="0603WAF3162T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2654fedf-b602-40d0-9162-e90248092b44</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb879965-3199-431a-9098-09472231d853</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC#">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC#" value="C22962"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>878a735b-8368-4840-91a7-c37cab9b9b96</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Config" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ce5eac1-26b1-4f1d-9988-9bb7c41290cd</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>hadv-rf:BL-R8812AF1</footprint>
+      <fields>
+        <field name="MPN">BL-R8812AF1</field>
+        <field name="Manufacturer">Unknown</field>
+      </fields>
+      <libsource lib="hadv-rf" part="BL-R8812AF1" description="WiFi module with RTL8812AU chipset, 2T2R"/>
+      <property name="MPN" value="BL-R8812AF1"/>
+      <property name="Manufacturer" value="Unknown"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="WiFi module with RTL8812AU chipset, 2T2R"/>
+      <property name="ki_keywords" value="wifi wireless"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4212079-1fc2-4397-bbc0-0c882c3a7337</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AP62300WU</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C1880390</field>
+        <field name="MPN">AP62300WU-7</field>
+        <field name="Manufacturer">Diodes Inc</field>
+      </fields>
+      <libsource lib="hadv-vregs" part="AP62300WU" description="3A, 750kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"/>
+      <property name="MPN" value="AP62300WU-7"/>
+      <property name="Manufacturer" value="Diodes Inc"/>
+      <property name="LCSC#" value="C1880390"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rtl-module-breakout.kicad_sch"/>
+      <property name="ki_description" value="3A, 750kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"/>
+      <property name="ki_keywords" value="3A Buck DC/DC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>893c2454-0327-47a2-bfc7-2e22826f0083</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-connectors" part="FFC_12p_H">
+      <description>FFC / FPC 12 pin horizontal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FFC_12p_H</field>
+        <field name="Footprint">Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="MPN">AFC24-S12FIC-00</field>
+        <field name="Manufacturer">JUSHUO</field>
+        <field name="LCSC#">C262290</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-connectors" part="JST-GH-4H">
+      <description>JST GH series 4 pin horizontal connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JST-GH-4H</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="MPN">SM04B-GHS-TB</field>
+        <field name="Manufacturer">JST</field>
+        <field name="AltMPN">X1251WRS-04HF-LPSW</field>
+        <field name="AltManufacturer">XKB</field>
+        <field name="LCSC#">C388709</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-connectors" part="TF-01A">
+      <description>Micro SD Card Socket with one card detection pin</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1811082127_Korean-Hroparts-Elec-TF-01A_C91145.pdf</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TF-01A</field>
+        <field name="Footprint">hadv-connectors:TF-01A</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811082127_Korean-Hroparts-Elec-TF-01A_C91145.pdf</field>
+        <field name="MPN">TF-01A</field>
+        <field name="Manufacturer">Korean Hroparts</field>
+        <field name="LCSC#">C91145</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="DET" type="passive"/>
+        <pin num="10" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-diodes" part="DSS34">
+      <description>40V 3A RMS 550mV schottky diode</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2004141809_BORN-DSS34_C511866.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DSS34</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2004141809_BORN-DSS34_C511866.pdf</field>
+        <field name="MPN">DSS34</field>
+        <field name="Manufacturer">BORN</field>
+        <field name="LCSC#">C511866</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-inductors" part="LQH5BPN3R3N38L">
+      <description>4A 3.3uH ±30% 4A 21mΩ</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">LQH5BPN3R3N38L</field>
+        <field name="Footprint">Inductor_SMD:L_Sunlord_SWPA5020S</field>
+        <field name="Datasheet">~</field>
+        <field name="MPN">LQH5BPN3R3N38L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="LCSC#">C703751</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-mechanical" part="MH_2.2mm">
+      <description>Mounting Hole with pad for 2mm bolt</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MH_2.2mm</field>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2_Pad_Via</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-mechanical" part="TP_1MM">
+      <description>test point 1mm dia</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP_1MM</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-rf" part="BL-R8812AF1">
+      <description>WiFi module with RTL8812AU chipset, 2T2R</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BL-R8812AF1</field>
+        <field name="Footprint">hadv-rf:BL-R8812AF1</field>
+        <field name="MPN">BL-R8812AF1</field>
+        <field name="Manufacturer">Unknown</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PDN" type="input"/>
+        <pin num="2" name="VCC_3V3" type="power_in"/>
+        <pin num="3" name="USB_D_N" type="bidirectional"/>
+        <pin num="4" name="USB_D_P" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="LED" type="output"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="NC" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="NC" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-ui" part="LED_GREEN">
+      <description>LED green</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED_SMD:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_GREEN</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="MPN">SZYY0603YG</field>
+        <field name="Manufacturer">Yongyu Photoelectric</field>
+        <field name="LCSC#">C434423</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-ui" part="LED_RED">
+      <description>LED red</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED_SMD:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RED</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="MPN">SZYY0603R</field>
+        <field name="Manufacturer">Yongyu Photoelectric</field>
+        <field name="LCSC#">C434419</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hadv-vregs" part="AP62300WU">
+      <description>3A, 750kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP62300WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf</field>
+        <field name="MPN">AP62300WU-7</field>
+        <field name="Manufacturer">Diodes Inc</field>
+        <field name="LCSC#">C1880390</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SW" type="output"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="BST" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="hadv-connectors">
+      <uri>/home/reinis/Sync/hadv/rtl-module-breakout/rtl-module-breakout-hw/hadv-kicad-lib/hadv-connectors.kicad_sym</uri>
+    </library>
+    <library logical="hadv-diodes">
+      <uri>/home/reinis/Sync/hadv/rtl-module-breakout/rtl-module-breakout-hw/hadv-kicad-lib/hadv-diodes.kicad_sym</uri>
+    </library>
+    <library logical="hadv-inductors">
+      <uri>/home/reinis/Sync/hadv/rtl-module-breakout/rtl-module-breakout-hw/hadv-kicad-lib/hadv-inductors.kicad_sym</uri>
+    </library>
+    <library logical="hadv-mechanical">
+      <uri>/home/reinis/Sync/hadv/rtl-module-breakout/rtl-module-breakout-hw/hadv-kicad-lib/hadv-mechanical.kicad_sym</uri>
+    </library>
+    <library logical="hadv-rf">
+      <uri>/home/reinis/Sync/hadv/rtl-module-breakout/rtl-module-breakout-hw/hadv-kicad-lib/hadv-rf.kicad_sym</uri>
+    </library>
+    <library logical="hadv-ui">
+      <uri>/home/reinis/Sync/hadv/rtl-module-breakout/rtl-module-breakout-hw/hadv-kicad-lib/hadv-ui.kicad_sym</uri>
+    </library>
+    <library logical="hadv-vregs">
+      <uri>/home/reinis/Sync/hadv/rtl-module-breakout/rtl-module-breakout-hw/hadv-kicad-lib/hadv-vregs.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VCC_3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="/SD_CLK">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="4" name="/SD_CMD">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="CMD" pintype="input"/>
+    </net>
+    <net code="5" name="/SD_D0">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/SD_D1">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/SD_D2">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/SD_D3">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/USB_N">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="USB_D_N" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/USB_P">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="USB_D_P" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/WIFI_PDN">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J1" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="13" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(J1-Pin_12)">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U1-PDN)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PDN" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U3-BST)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(U3-FB)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U3-SW)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="22" name="unconnected-(J2-DET-Pad9)">
+      <node ref="J2" pin="9" pinfunction="DET" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-NC-Pad8)">
+      <node ref="U1" pin="8" pinfunction="NC" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(U1-NC-Pad11)">
+      <node ref="U1" pin="11" pinfunction="NC" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(U3-EN-Pad5)">
+      <node ref="U3" pin="5" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
