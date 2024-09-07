@@ -7,4 +7,7 @@ Features:
 
 ![render.png](render.png)
 
-Current state: __not tested!__
+Current state:
+* Power input tested and working fine at 5 and 12V
+* WiFi module works
+* FFC connection untested
